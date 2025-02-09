@@ -1,9 +1,9 @@
-import brands from '../Images/picturess.png';
+import branding from '../Images/picturess.png';
 const Frame1 = () => {
     return (
       <div className="frame">
         <div className="group2">
-          <img src={brands} alt="Brand logo" className="brand-icon" />
+          <img src={branding} alt="Brand logo" className="brand-icon" />
           <nav className="navbar-contents">
             <a href="#" className="navbar-link">AI Tools</a>
             <a href="#" className="navbar-link">Submit Tools</a>
@@ -11,6 +11,7 @@ const Frame1 = () => {
             <a href="#" className=" advertise">Advertise</a>
             <a href="#" className="navbar-link">About Us</a>
           </nav>
+          {/* hello */}
           <button className="login-button">Login/Signup</button>
         </div>
       </div>
